@@ -736,14 +736,14 @@ ul {
   z-index: 1; }
   .dento-price-table table thead tr > td,
   .dento-price-table table thead tr > th {
-    background-color: #00aeef;
-    color: #2d00f7; }
+    background-color: #25ced1;
+    color: #f8f7ff; }
   .dento-price-table table tr > td,
   .dento-price-table table tr > th {
     padding: 15px 30px;
     border-radius: 3px;
     border: 4px solid #ffffff;
-    background-color: #2d00f7;
+    background-color: #f8f7ff;
     font-weight: 600;
     color: #707070; }
     @media only screen and (max-width: 767px) {
