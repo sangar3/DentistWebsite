@@ -459,7 +459,7 @@ ul {
   position: relative;
   z-index: 1;
   height: 40px;
-  background-color: #f4f4f4; }
+  background-color: #fceade; }/*MAINCOLOR FOR TOPSIDE NAV*/
   .top-header-area .top-header-content a {
     display: inline-block;
     font-size: 12px;
@@ -484,7 +484,7 @@ ul {
       color: #00aeef; }
 
 .classy-nav-container {
-  background-color: transparent; }
+  background-color: #fceade; } /*MAINCOLOR FOR TOPSIDE NAV*/
   .classy-nav-container .classy-navbar {
     height: 90px;
     padding: 0; }
@@ -600,7 +600,7 @@ ul {
     .testimonials-area .owl-next:focus, .testimonials-area .owl-next:hover,
     .testimonials-area .owl-prev:focus,
     .testimonials-area .owl-prev:hover {
-      color: #ffffff; }
+      color: red; }
   .testimonials-area .owl-next {
     left: auto;
     right: -100px; }
@@ -737,13 +737,13 @@ ul {
   .dento-price-table table thead tr > td,
   .dento-price-table table thead tr > th {
     background-color: #00aeef;
-    color: #ffffff; }
+    color: #2d00f7; }
   .dento-price-table table tr > td,
   .dento-price-table table tr > th {
     padding: 15px 30px;
     border-radius: 3px;
     border: 4px solid #ffffff;
-    background-color: #f4f4f4;
+    background-color: #2d00f7;
     font-weight: 600;
     color: #707070; }
     @media only screen and (max-width: 767px) {
@@ -770,7 +770,7 @@ ul {
       .single-service h6 {
         font-size: 13px; } }
   .single-service:focus h6, .single-service:hover h6 {
-    color: #00aeef; }
+    color: red; }
 
 .single-service--area {
   position: relative;
@@ -1381,6 +1381,7 @@ ul {
   .single-footer-widget p {
     color: #ffffff; }
   .single-footer-widget .footer-contact {
+
     position: relative;
     z-index: 1; }
     .single-footer-widget .footer-contact p {
