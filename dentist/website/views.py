@@ -9,10 +9,10 @@ def contact(request):
         message_name = request.POST['message-name'] # NAME TAG
         message_email = request.POST['message-email']# EMAIL TAG
         message = request.POST['message']# MESSGAE TAG
-
+        subject = request.POST['subject']# MESSGAE TAG
         #SENDING EMAIL
         send_mail(
-           'Message from'+ message_name,#subject
+            subject,#subject
             message, #message
             message_email,#from email
             ['sgarcia@mail.bradley.edu'], #to Email
