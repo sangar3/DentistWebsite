@@ -124,3 +124,15 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static'),
 ]
+
+
+
+#EMAIL SETTINGS
+#https://accounts.google.com/b/0/DisplayUnlockCaptcha
+#https://myaccount.google.com/lesssecureapps
+EMAIL_HOST= 'smtp.gmail.com'
+EMAIL_PORT='587'
+EMAIL_HOST_USER ='sgarcia@mail.bradley.edu'
+EMAIL_HOST_PASSWORD =''
+EMAIL_USE_TLS = True
+# EMAIL_USE_SSL = False
