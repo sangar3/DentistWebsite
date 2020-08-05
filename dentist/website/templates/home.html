@@ -336,7 +336,8 @@
         <div class="col-12">
           <!-- Appointment Form -->
           <div class="appointment-form">
-            <form action="#" method="post">
+            <form action="{% url 'appointment' %}" method="post">
+              {% csrf_token %}
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group mb-30">
@@ -360,8 +361,8 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-group mb-30">
-                    <select name="your-scheldule" class="form-control">
-                      <option value="Choose Your Scheldule">Choose Your Scheldule</option>
+                    <select name="your-schedule" class="form-control">
+                      <option value="First Choose Appointment Time">First Choose Appointment Time</option>
                       <option value="9 AM to 10 AM">9 AM to 10 AM</option>
                       <option value="11 AM to 12 PM">11 AM to 12 PM</option>
                       <option value="2 PM to 4 PM">2 PM to 4 PM</option>
@@ -371,12 +372,13 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-group mb-30">
-                    <select name="your-time" class="form-control">
-                      <option value="Choose Your Time">Choose Your Scheldule</option>
-                      <option value="9 AM to 10 AM">9 AM to 10 AM</option>
-                      <option value="11 AM to 12 PM">11 AM to 12 PM</option>
-                      <option value="2 PM to 4 PM">2 PM to 4 PM</option>
-                      <option value="8 PM to 10 PM">8 PM to 10 PM</option>
+                    <select name="your-date" class="form-control">
+                      <option value="Choose the Date of Your Appointment">Choose the Date of Your Appointment</option>
+                      <option value="Monday">Monday</option>
+                      <option value="Tuesday">Tuesday</option>
+                      <option value="Wednesday">Wednesday</option>
+                      <option value="Thursday">Thursday</option>
+                      <option value="Friday">Friday</option>
                     </select>
                   </div>
                 </div>
