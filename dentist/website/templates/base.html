@@ -89,20 +89,20 @@
                       <li><a href="{%url 'pricing'%}">- Pricing</a></li>
                       <li><a href="{%url 'blog'%}">- Blog</a></li>
                       <li><a href="{%url 'blog_details'%}">- Blog Details</a></li>
-                      <li><a href="{% url 'contact' %}">- Contact</a></li>
-                      <li><a href="#">- Dropdown</a>
+<!--                      <li><a href="{% url 'contact' %}">- Contact</a></li>-->
+                      <li><a href="#">- Extras</a>
                         <ul class="dropdown">
-                          <li><a href="#">- Dropdown Item</a></li>
-                          <li><a href="#">- Dropdown Item</a>
+                          <li><a href="#">- Dropdown Item 1</a></li>
+                          <li><a href="#">- Dropdown Item 2</a></li>
+                          <li><a href="#">- Dropdown Item 3</a></li>
+                          <li><a href="#">- More Dropdown Items</a>
                             <ul class="dropdown">
-                              <li><a href="#">- Even Dropdown</a></li>
-                              <li><a href="#">- Even Dropdown</a></li>
-                              <li><a href="#">- Even Dropdown</a></li>
-                              <li><a href="#">- Even Dropdown</a></li>
+                              <li><a href="#">- Page1</a></li>
+                              <li><a href="#">- Page2</a></li>
+                              <li><a href="#">- Page3</a></li>
+                              <li><a href="#">- Page4</a></li>
                             </ul>
                           </li>
-                          <li><a href="#">- Dropdown Item</a></li>
-                          <li><a href="#">- Dropdown Item</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -116,14 +116,14 @@
                       <li><a href="blog-details.html">- Blog Details</a></li>
                     </ul>
                   </li>
-                  <li><a href="{% url 'contact' %}">Contact</a></li>
+<!--                  <li><a href="{% url 'contact' %}">Contact</a></li>-->
                 </ul>
               </div>
               <!-- Nav End -->
             </div>
 
             <!-- Booking Now Button -->
-            <a href="#" class="btn dento-btn booking-btn">Booking Now</a>
+            <a href="{% url 'contact' %}" class="btn dento-btn booking-btn">Contact Us</a>
           </nav>
         </div>
       </div>
