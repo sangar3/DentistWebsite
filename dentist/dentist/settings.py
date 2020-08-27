@@ -127,7 +127,7 @@ STATICFILES_DIRS = [
 
 
 
-#EMAIL SETTINGS
+#AUTOMATED EMAIL MESSAGE
 #https://accounts.google.com/b/0/DisplayUnlockCaptcha
 #https://myaccount.google.com/lesssecureapps
 EMAIL_HOST= 'smtp.gmail.com'
